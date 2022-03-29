@@ -1,0 +1,32 @@
+.post {
+  display: block;
+  text-decoration: none;
+
+  & + a {
+    margin-top: 3.2rem;
+  }
+
+  &:hover .title {
+    color: var(--pink-300);
+  }
+
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--gray-50);
+    transition: color 200ms;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    color: var(--gray-100);
+    margin-top: 0.5rem;
+  }
+
+  > div {
+    margin-top: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+}

@@ -1,0 +1,11 @@
+.metaInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--gray-200);
+
+  span,
+  time {
+    font-size: 14px;
+  }
+}
